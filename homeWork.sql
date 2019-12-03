@@ -1,4 +1,4 @@
--- 1 задание
+-- 1 Р·Р°РґР°РЅРёРµ
 
 SELECT 
  user.id, COUNT(*) as orders
@@ -9,7 +9,7 @@ GROUP BY
  u.user.id
 HAVING COUNT(*) > 1
    
--- 2 задание
+-- 2 Р·Р°РґР°РЅРёРµ
 
 SELECT * FROM catalogs
 join products id, name, catalog_id  FROM products;
